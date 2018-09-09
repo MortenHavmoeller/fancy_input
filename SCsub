@@ -1,0 +1,5 @@
+#SCsub for fancy_input
+
+Import('env')
+
+env.add_source_files(env.modules_sources, "*.cpp") #add all cpp files
